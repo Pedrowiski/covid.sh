@@ -14,8 +14,8 @@ HTML_SOURCE="$(curl -s 'https://www.worldometers.info/coronavirus/')"
 
 if (("$?" != 0))
 then
-    echo "Não foi possível se conectar com o servidor de consulta. Verifique a sua internet." >&2
-    exit 1
+	echo "Não foi possível se conectar com o servidor de consulta. Verifique a sua internet." >&2
+	exit 1
 fi
 
 INFORMATIONS_ABOUT_COVID="$(echo $(sed '/^<span[^n]*>[0-9]/!d; s/<[^>]*>//g; s/,/./g' <<< "$HTML_SOURCE"))"
