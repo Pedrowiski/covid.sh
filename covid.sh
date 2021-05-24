@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #=============================================================#
 # Autor            : Pedrovisk <pedrovisk.unix@gmail.com>
 # Data de criação  : 24/05/21
