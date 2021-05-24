@@ -7,7 +7,7 @@
 # Descrição        :
 #    Pequeno script escrito em shell bash que consulta dados
 #    sobre o covid utilizando o site "worldometers" como
-#    site de consulta.
+#    fonte de consulta.
 #
 # Dependências     :      curl
 #=============================================================#
