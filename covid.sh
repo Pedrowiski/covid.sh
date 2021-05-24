@@ -9,7 +9,7 @@
 #    sobre o covid utilizando o site "worldometers" como
 #    fonte de consulta.
 #
-# Dependências     :      curl
+# Dependências     : curl
 #=============================================================#
 
 HTML_SOURCE="$(curl -s 'https://www.worldometers.info/coronavirus/')"
